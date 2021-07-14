@@ -1,4 +1,4 @@
-/* Header Style Starting */
+/*------------------------------- Header Style Starting----------------------------- */
 
 header{
     width: 100%;
@@ -7,10 +7,6 @@ header{
     margin-bottom: 70px;
     padding-top: 30px;
 }   
-
-
-
-
 
 
 .nav-elements{
@@ -63,28 +59,22 @@ header{
 
 
 
-
-
-
-
-/* Body style */
+/* -------------------------------------------------------Body style -------------*/
 body{
     font-family: 'Poppins', sans-serif;
     
 }
 
-/* Players style */
+/* ----------------------Players style------------------------------------ */
 
 .players{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(auto-fit, 1fr);
     margin-left: 180px;
     margin-right: 210px;
     width: 1050px;
 
 }
-
-
 
 .player{
     width: 330px;
@@ -106,7 +96,7 @@ body{
     padding-left: 15px;
 }
 
-/* Highlights Style */
+/*--------------------------------- Highlights Style--------------------------- */
  
 
 .details p{
@@ -119,7 +109,7 @@ body{
     padding: 10px 24px;
 }
 
-/* Extra Part Style */
+/* ------------------------------------------Bonas Part Style--------------------- */
 
 .log-in-form{
     padding-left: 100px;
@@ -145,7 +135,7 @@ body{
 }
 
 
-/* Pre-Footer Style */
+/* ---------------------------Pre-Footer Style----------------------------*/
 
 .logo img{
     margin-left: 475px;
@@ -184,7 +174,7 @@ body{
 
 
 
-
+/* ---------Log in Form design--------------------*/
 
 
 form {border: 3px solid #f1f1f1;}
@@ -237,7 +227,7 @@ span.psw {
   padding-top: 16px;
 }
 
-
+/* ----------last icon design--------------------*/
 
 .logo{
     padding-left: 450px;
@@ -251,7 +241,16 @@ span.psw {
 
 }
 
+
+
+/* ----------footer design--------------------*/
 footer p{
     padding-left: 580px;
     width: 400px;
 }
+
+
+
+
+
+

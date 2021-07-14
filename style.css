@@ -1,0 +1,257 @@
+/* Header Style Starting */
+
+header{
+    width: 100%;
+    height: 677px;
+    background-color: #2D25A0;
+    margin-bottom: 70px;
+    padding-top: 30px;
+}   
+
+
+
+
+
+
+.nav-elements{
+    margin-left: 156px;
+}
+.buttons{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 30px;
+}
+.name{
+    margin-top: 150px;
+    font-weight: bold;
+    font-size: 64px;
+    color: white;
+    margin-left: 156px;   
+}
+
+.half-width{
+    width: 50%;
+    display: flex;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+    margin-left: 156px;
+    padding: 10px 24px;
+    
+}
+.login{
+    margin-left: 500px;
+}
+
+#banner{
+    width: 600px;
+    height: 450px;
+    left: 1299.01px;
+    top: 153px;
+}
+#banner:hover{
+
+    transform: rotate(30deg) scale(1);
+    transition-duration: 5s;
+}
+
+
+
+
+
+
+
+/* Body style */
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* Players style */
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 180px;
+    margin-right: 210px;
+    width: 1050px;
+
+}
+
+
+
+.player{
+    width: 330px;
+    background-color: white;
+    margin-top: 27px;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player img{
+    width: 300px;
+    height: 256px;
+    align-items: center;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.about-player{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+/* Highlights Style */
+ 
+
+.details p{
+    color: #6C6C6C;
+}
+.details-link{
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+}
+
+/* Extra Part Style */
+
+.log-in-form{
+    padding-left: 100px;
+}
+.fixture img{
+    width: 600px;
+    height: 315px;
+    
+}
+.fixture-link{
+    text-decoration: none;
+    color: white;
+    background-color:#E02C6D;
+    padding: 10px 24px;
+    
+}
+   
+
+
+.youtube{
+    padding-left: 95px;
+    margin-left: 280px;
+}
+
+
+/* Pre-Footer Style */
+
+.logo img{
+    margin-left: 475px;
+    margin-right: 481px;
+    margin-top: 158px;
+}
+.icons{
+    margin-left: 680px;
+    display: inline;
+    color: #969BAB;
+}
+.fa-instagram{
+    background-color: #d5d8df;
+    padding: 5px;
+    border-radius: 50%;
+}
+.fa-dribbble{
+    background-color: #d5d8df;
+    padding: 5px;
+    border-radius: 50%;
+}
+.fa-twitter{
+    background-color: #d5d8df;
+    padding: 5px;
+    border-radius: 50%;
+}
+.fa-youtube{
+    background-color: #d5d8df;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 25%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+
+.logo{
+    padding-left: 450px;
+    width: 400px;
+    margin-bottom: -50px;
+
+}
+
+.last-icons{
+    padding-left: 625px;
+
+}
+
+footer p{
+    padding-left: 580px;
+    width: 400px;
+}

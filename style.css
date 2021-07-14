@@ -126,7 +126,6 @@ body{
     padding: 10px 24px;
     
 }
-   
 
 
 .youtube{
@@ -227,10 +226,10 @@ span.psw {
   padding-top: 16px;
 }
 
-/* ----------last icon design--------------------*/
+/* ----------------------------------------------last icon design--------------------*/
 
 .logo{
-    padding-left: 450px;
+    padding-left: 400px;
     width: 400px;
     margin-bottom: -50px;
 
@@ -243,10 +242,44 @@ span.psw {
 
 
 
-/* ----------footer design--------------------*/
+/* -----------------------------------------------footer design--------------------*/
 footer p{
     padding-left: 580px;
     width: 400px;
+}
+
+/* -----------------------------------------------Media query--------------------*/
+
+@media screen and (max-width: 700px) {
+
+    .players{
+        display: block;
+        justify-content: center;
+    }
+    
+    .player{
+        width: 100%;
+        margin: 0;
+    }
+
+    .player img{
+        width: 90%;
+        height: 800px;
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+
+    .about-player{
+        font-size: 50px;
+    }
+
+
+
+    .youtube{ 
+        width: 1000px;
+        height: 400px;
+        margin-left: 350px;
+    }
 }
 
 
